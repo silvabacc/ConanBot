@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Discord.Net.Commands" Version="2.0.0-beta"/>
+    <PackageReference Include="Discord.Net.Core" Version="2.0.0-beta"/>
+    <PackageReference Include="Discord.Net.Rest" Version="2.0.0-beta"/>
+    <PackageReference Include="Discord.Net.Webhook" Version="2.0.0-beta"/>
+    <PackageReference Include="Discord.Net.WebSocket" Version="2.0.0-beta"/>
+    <PackageReference Include="TweetSharp" Version="2.3.1"/>
+    <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.2"/>
+    <PackageReference Include="NAudio" Version="1.9.0-preview2"/>
+    <PackageReference Include="Mpv.NET" Version="1.0.0"/>
+    <PackageReference Include="NReco.ImageGenerator" Version="1.1.1"/>
+    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.7"/>
+  </ItemGroup>
+</Project>
