@@ -21,7 +21,9 @@ I had to use the Discord and Twitter libraries to make this application work and
 # Bot Commands:
 
 conan tweet -> Recieve a tweet from Conan's twitter
+
 conan update -> Get the latest tweet from Conan
+
 conan joke -> ConanBot would join the same voice channel you are in and start playing a 5 min clip of Conan visiting Bethlehem, my favourite clip of him experience the Middle East
 
 # Some Screenshots:
