@@ -8,17 +8,18 @@ namespace DSPiggy.Modules
 {
     public class TweetView : ModuleBase<SocketCommandContext>
     {
-        private static string customer_key = "bhzPBcWQCMzYhN87Zsy3AkvBO";
-        private static string customer_key_secret = "uqhVNYx0BEvvMdA0SZhzOn3wufLHNw6exQtcvEUDSPIKdBIbqW";
-        private static string access_token = "4004179103-n1I7XyWXzhr73V2fhOfqaQNiCp9oGAhjU4gxWTR";
-        private static string access_token_secret = "svGSXSKCqpVJ089uvhJx1jjusgGGJIz5Jj2ttltvkg4RM";
+        private static string customer_key;
+        private static string customer_key_secret;
+        private static string access_token;
+        private static string access_token_secret;
 
         public TweetView()
         {
-            customer_key = "bhzPBcWQCMzYhN87Zsy3AkvBO";
-            customer_key_secret = "uqhVNYx0BEvvMdA0SZhzOn3wufLHNw6exQtcvEUDSPIKdBIbqW";
-            access_token = "4004179103-n1I7XyWXzhr73V2fhOfqaQNiCp9oGAhjU4gxWTR";
-            access_token_secret = "svGSXSKCqpVJ089uvhJx1jjusgGGJIz5Jj2ttltvkg4RM";
+            //Add own customer and acces token information here for TweetSharp library
+            customer_key = "";
+            customer_key_secret = "";
+            access_token = "";
+            access_token_secret = "";
         }
 
         [Command("tweet")]
