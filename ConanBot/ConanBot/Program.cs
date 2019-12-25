@@ -26,8 +26,9 @@ namespace DSPiggy
                 .AddSingleton(_client)
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
-
-            String botPrefix = "NjU5Mzk2NjQzNjAyMzAwOTQ5.XgNteA.44EQvPqgdJs3ZQO5j-fuWJSnTUI";
+		
+	    //Add own botPrefix here
+            String botPrefix = "";
 
             //event subscriptions
             _client.Log += Log;
